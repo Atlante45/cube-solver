@@ -14,14 +14,47 @@ Fonctions diverses
 */
 
 #include "Cube.h"
+
+#if !defined(__unix)
 #include <windows.h>
+#endif
 
 using namespace std;
 
 void Cube::Color(int couleurDuTexte,int couleurDeFond)  //Fonction d'affichage de couleurs
 {
-        HANDLE H = GetStdHandle(STD_OUTPUT_HANDLE);
-        SetConsoleTextAttribute(H,couleurDeFond*16+couleurDuTexte);
+#if !defined(__unix)
+    HANDLE H = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(H,couleurDeFond*16+couleurDuTexte);
+#else
+    if (couleurDeFond == 1 || couleurDeFond == 0)
+    {
+        cout << "\033[0m";
+        return;
+    }
+    
+    switch (couleurDeFond)
+    {
+        case 15:   //Blanc
+            cout << "\033[97m\033[107m";
+            break;
+        case 12:   //Rouge
+            cout << "\033[91m\033[101m";
+            break;
+        case 14:   //Jaune
+            cout << "\033[33m\033[43m";
+            break;
+        case 13:   //Rose
+            cout << "\033[95m\033[105m";
+            break;
+        case 9: //Bleu
+            cout << "\033[94m\033[104m";
+            break;
+        case 10:   //Vert
+            cout << "\033[92m\033[102m";
+            break;
+    }
+#endif
 }
 
 void Cube::Color2(int numero)   //Association faces/couleurs
