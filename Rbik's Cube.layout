@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="Cube.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="508" topLine="0" />
+	</File>
+	<File name="Cube.h" open="1" top="0" tabpos="1">
+		<Cursor position="2020" topLine="54" />
+	</File>
+	<File name="couronne.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="5903" topLine="166" />
+	</File>
+	<File name="divers.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1275" topLine="61" />
+	</File>
+	<File name="facefinale.cpp" open="1" top="1" tabpos="8">
+		<Cursor position="2193" topLine="209" />
+	</File>
+	<File name="faceinitiale.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="6094" topLine="174" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="73" topLine="6" />
+	</File>
+	<File name="rotations.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="15062" topLine="401" />
+	</File>
+</CodeBlocks_layout_file>

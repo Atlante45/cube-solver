@@ -1,7 +1,7 @@
 /*
 Rubiks
 Clément BRISSET et Julien CHAUMONT
-Janvier 2010
+Janvier 2010 - Juin 2010
 Librairies utilisées: librairies mingw32 par défaut
 IDE utilisé: CodeBlocks 8.02
 */
@@ -22,7 +22,7 @@ void Cube::tourner_face_plus(int face, bool affichage)  //Rotation de la face fa
 
     int c=0, d=0, e=0, f=0, g=0, s=0;
 
-    for(int t=0;t<2;t++) // tourner intérieur face
+    for(int t=0;t<2;t++)      //Tourner intérieur face
     {
         for(int j=0;j<3;j++)
         {
@@ -51,7 +51,7 @@ void Cube::tourner_face_plus(int face, bool affichage)  //Rotation de la face fa
                     case 12:
                         d=cube[face][1][2];
                         cube[face][1][2]=c;
-                    break;
+                        break;
                     case 20:
                         cube[face][2][0]=cube[face][2][1];
                         break;
@@ -69,7 +69,7 @@ void Cube::tourner_face_plus(int face, bool affichage)  //Rotation de la face fa
         }
     }
 
-    switch(face)  // tourner exterieur face
+    switch(face)            //Tourner exterieur face
     {
         case 0:
             e=cube[4][0][0];
@@ -175,8 +175,49 @@ void Cube::tourner_face_plus(int face, bool affichage)  //Rotation de la face fa
             break;
     }
 
-    if(affichage)
-        cout << "Tourner face " << face << " dans le sens contraire des aiguilles d'une montre." <<endl;
+    if(affichage)              //Affichage de la rotation effectuée
+    {
+        if(couleur)
+        {
+            if(court)
+            {
+            if(faces[face]==0)
+                    cout << "blanche --> sens Positif" <<endl;
+            else if(faces[face]==1)
+                    cout << "rouge --> sens Positif" <<endl;
+            else if(faces[face]==2)
+                    cout << "jaune --> sens Positif" <<endl;
+            else if(faces[face]==3)
+                    cout << "rose --> sens Positif" <<endl;
+            else if(faces[face]==4)
+                    cout << "bleu --> sens Positif" <<endl;
+            else if(faces[face]==5)
+                    cout << "vert --> sens Positif" <<endl;
+            else
+                cout<<"ERREUR !!!!!!"<<endl;
+            }
+            else
+            {
+            if(faces[face]==0)
+                    cout << "Tourner face blanche dans le sens contraire des aiguilles d'une montre." <<endl;
+            else if(faces[face]==1)
+                    cout << "Tourner face rouge dans le sens contraire des aiguilles d'une montre." <<endl;
+            else if(faces[face]==2)
+                    cout << "Tourner face jaune dans le sens contraire des aiguilles d'une montre." <<endl;
+            else if(faces[face]==3)
+                    cout << "Tourner face rose dans le sens contraire des aiguilles d'une montre." <<endl;
+            else if(faces[face]==4)
+                    cout << "Tourner face bleu dans le sens contraire des aiguilles d'une montre." <<endl;
+            else if(faces[face]==5)
+                    cout << "Tourner face vert dans le sens contraire des aiguilles d'une montre." <<endl;
+            else
+                cout<<"ERREUR !!!!!!"<<endl;
+            }
+        }
+        else
+            cout << "Tourner face " << faces[face] << " dans le sens contraire des aiguilles d'une montre." <<endl;
+    }
+        coups++;
 }
 
 void Cube::tourner_face_moins(int face, bool affichage) //Rotation de la face face dans le sens inverse du sens trigonométrique
@@ -184,7 +225,7 @@ void Cube::tourner_face_moins(int face, bool affichage) //Rotation de la face fa
 
     int c=0, d=0, e=0, f=0,g=0, s=0;
 
-    for(int t=0;t<2;t++)  // tourner intérieur face
+    for(int t=0;t<2;t++)  //Tourner intérieur face
     {
         for(int j=0;j<3;j++)
         {
@@ -231,7 +272,7 @@ void Cube::tourner_face_moins(int face, bool affichage) //Rotation de la face fa
         }
     }
 
-    switch(face)   // tourner exterieur face
+    switch(face)   //Tourner exterieur face
     {
         case 0:
             e=cube[4][0][0];
@@ -337,6 +378,47 @@ void Cube::tourner_face_moins(int face, bool affichage) //Rotation de la face fa
             break;
     }
 
-    if(affichage)
-        cout << "Tourner face " << face << " dans le sens des aiguilles d'une montre." <<endl;
+    if(affichage)              //Affichage de la rotation effectuée
+    {
+        if(couleur)
+        {
+            if(court)
+            {
+            if(faces[face]==0)
+                    cout << "blanche --> sens Negatif" <<endl;
+            else if(faces[face]==1)
+                    cout << "rouge --> sens Negatif" <<endl;
+            else if(faces[face]==2)
+                    cout << "jaune --> sens Negatif" <<endl;
+            else if(faces[face]==3)
+                    cout << "rose --> sens Negatif" <<endl;
+            else if(faces[face]==4)
+                    cout << "bleu --> sens Negatif" <<endl;
+            else if(faces[face]==5)
+                    cout << "vert --> sens Negatif" <<endl;
+            else
+                cout<<"ERREUR !!!!!!"<<endl;
+            }
+            else
+            {
+            if(faces[face]==0)
+                    cout << "Tourner face blanche dans le sens des aiguilles d'une montre." <<endl;
+            else if(faces[face]==1)
+                    cout << "Tourner face rouge dans le sens des aiguilles d'une montre." <<endl;
+            else if(faces[face]==2)
+                    cout << "Tourner face jaune dans le sens des aiguilles d'une montre." <<endl;
+            else if(faces[face]==3)
+                    cout << "Tourner face rose dans le sens des aiguilles d'une montre." <<endl;
+            else if(faces[face]==4)
+                    cout << "Tourner face bleu dans le sens des aiguilles d'une montre." <<endl;
+            else if(faces[face]==5)
+                    cout << "Tourner face vert dans le sens des aiguilles d'une montre." <<endl;
+            else
+                cout<<"ERREUR !!!!!!"<<endl;
+            }
+        }
+        else
+            cout << "Tourner face " << faces[face] << " dans le sens des aiguilles d'une montre." <<endl;
+    }
+        coups++;         //Ajoute un coup au compteur
 }

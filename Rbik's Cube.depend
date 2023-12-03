@@ -1,0 +1,141 @@
+# depslib dependency file v1.0
+1264114390 source:c:\users\atlante45\documents\cours c\rbik's cube\main.cpp
+	<iostream>
+	<cstdlib>
+	"Cube.h"
+
+1264162343 c:\users\atlante45\documents\cours c\rbik's cube\cube.h
+
+1264177587 source:c:\users\atlante45\documents\cours c\rbik's cube\cube.cpp
+	<iostream>
+	"Cube.h"
+
+1264196386 source:c:\users\julien\desktop\rbik's cube\main.cpp
+	"Cube.h"
+
+1267174202 c:\users\julien\desktop\rbik's cube\cube.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1267174252 source:c:\users\julien\desktop\rbik's cube\cube.cpp
+	"Cube.h"
+
+1264752095 source:c:\users\julien\desktop\rbik's cube\rotations.cpp
+	"Cube.h"
+
+1267170433 source:c:\users\julien\desktop\rbik's cube\divers.cpp
+	"Cube.h"
+
+1268379577 source:c:\users\julien\desktop\rbik's cube\couronne.cpp
+	"Cube.h"
+
+1264751317 source:c:\users\julien\desktop\rbik's cube\faceinitiale.cpp
+	"Cube.h"
+
+1268379578 source:\\.psf\home\desktop\rbik's cube\couronne.cpp
+	"Cube.h"
+
+1268383496 \\.psf\home\desktop\rbik's cube\cube.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1267170434 source:\\.psf\home\desktop\rbik's cube\divers.cpp
+	"Cube.h"
+
+1264751318 source:\\.psf\home\desktop\rbik's cube\faceinitiale.cpp
+	"Cube.h"
+
+1264196388 source:\\.psf\home\desktop\rbik's cube\main.cpp
+	"Cube.h"
+
+1268415480 source:\\.psf\home\desktop\rbik's cube\cube.cpp
+	"Cube.h"
+
+1268383496 source:\\.psf\home\desktop\rbik's cube\rotations.cpp
+	"Cube.h"
+
+1268524457 source:\\.psf\home\desktop\rbik's cube\facefinale.cpp
+	"Cube.h"
+
+1273329305 source:\\.psf\home\desktop\rubik's cube\couronne.cpp
+	"Cube.h"
+
+1273594098 \\.psf\home\desktop\rubik's cube\cube.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1273427327 source:\\.psf\home\desktop\rubik's cube\divers.cpp
+	"Cube.h"
+	<windows.h>
+
+1273417443 source:\\.psf\home\desktop\rubik's cube\faceinitiale.cpp
+	"Cube.h"
+
+1273427327 source:\\.psf\home\desktop\rubik's cube\main.cpp
+	"Cube.h"
+
+1273594172 source:\\.psf\home\desktop\rubik's cube\rotations.cpp
+	"Cube.h"
+
+1275632817 source:\\.psf\home\desktop\rubik's cube\cube.cpp
+	"Cube.h"
+
+1273415267 source:\\.psf\home\desktop\rubik's cube\facefinale.cpp
+	"Cube.h"
+
+1270189695 source:c:\users\julien\desktop\rubik's cube\couronne.cpp
+	"Cube.h"
+
+1270189661 c:\users\julien\desktop\rubik's cube\cube.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1267174034 source:c:\users\julien\desktop\rubik's cube\divers.cpp
+	"Cube.h"
+
+1272007286 source:c:\users\julien\desktop\rubik's cube\faceinitiale.cpp
+	"Cube.h"
+
+1264199988 source:c:\users\julien\desktop\rubik's cube\main.cpp
+	"Cube.h"
+
+1268989695 source:c:\users\julien\desktop\rubik's cube\rotations.cpp
+	"Cube.h"
+
+1270193116 source:c:\users\julien\desktop\rubik's cube\cube.cpp
+	"Cube.h"
+
+1270194007 source:c:\users\julien\desktop\rubik's cube\facefinale.cpp
+	"Cube.h"
+
+1273209785 source:c:\users\atlante45\desktop\rubik's cube\couronne.cpp
+	"Cube.h"
+
+1273210616 c:\users\atlante45\desktop\rubik's cube\cube.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1273210616 source:c:\users\atlante45\desktop\rubik's cube\divers.cpp
+	"Cube.h"
+	<windows.h>
+
+1273211579 source:c:\users\atlante45\desktop\rubik's cube\facefinale.cpp
+	"Cube.h"
+
+1273209786 source:c:\users\atlante45\desktop\rubik's cube\faceinitiale.cpp
+	"Cube.h"
+
+1264199988 source:c:\users\atlante45\desktop\rubik's cube\main.cpp
+	"Cube.h"
+
+1273209827 source:c:\users\atlante45\desktop\rubik's cube\rotations.cpp
+	"Cube.h"
+
+1273212205 source:c:\users\atlante45\desktop\rubik's cube\cube.cpp
+	"Cube.h"
+
